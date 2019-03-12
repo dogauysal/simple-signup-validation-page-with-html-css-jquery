@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Elix</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </header>
+    <body>
+        <div id="menu_section">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="img/elix_logo.png" alt="">
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <ul>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Trade</a></li>
+                        <li><a href="">Team</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <ul>
+                        <li><a href="">Log In</a></li>
+                        <li><input type="submit" value="Get Started"></li>
+                    </ul>
+                </div>
+                <div class="col-md-1 col-sm-1"></div>
+            </div>
+        </div>
+
+        <div id="signup_section">
+            <div class="row justify-content-md-center">
+                <div class="col-md-5">
+                    <img src="img/elix_signup.jpg" alt="">
+                </div>
+                <div class="col-md-3">
+                    <div class="signup_fields">
+                        <h3>Welcome to Elix</h3>
+                        <p>Let's get you all set up so you can begin setting up your first campaign or create your first product!</p>
+                        <form action="" id="signup_form">
+                            <div class="input_group" id="name">
+                                <label for="Name">Name</label>
+                                <input type="text"  name="Name">
+                                <img class="check" src="img/check.png">
+                                <img class="error" src="img/x.png">
+                            </div>
+                             <div class="input_group" id="email">
+                                <label for="Email">Email Address</label>
+                                <input type="email" name="Email" >
+                                <img class="check" src="img/check.png">
+                                <img class="error" src="img/x.png">
+                            </div>
+                             <div class="input_group" id="password">
+                                <label for="Password">Password</label>
+                                <input type="password" name="Password" >
+                                <img class="check" src="img/check.png">
+                                <img class="error" src="img/x.png">
+                            </div>
+                             <div class="input_group" id="password2">
+                                <label for="Password2">Confirm Password</label>
+                                <input type="password"  name="Password2" >
+                                <img class="check" src="img/check.png">
+                                <img class="error" src="img/x.png">
+                            </div>
+
+                            <div class="checkbox_group" id="emailElix">
+                                <input type="checkbox"  >
+                                <label>Yes, I want to receive emails from Elix</label>
+                            </div>
+
+                            <div class="checkbox_group" id="termsOfService">
+                                <input type="checkbox" >
+                                <label>I agree Elix's <a href="">Terms of Service</a> and <a href="">Privacy Policy</a></label>
+                            </div>
+                            
+                            <input class="col-md-6" type="submit" value="Sign Up">
+                        </form>
+                        <p>Already have an account? <a href="">Log In</a></p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

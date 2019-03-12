@@ -1,0 +1,179 @@
+
+input {
+    color: black;
+    border: 1px solid #E6E8EF;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    padding: 7px 20px;
+    border-radius: 7px;
+    border: 0px solid;
+    font-weight: 600;
+    color: white;
+    background-image: linear-gradient(-90deg, #0B3484,#4E3DDD);
+}
+
+
+/* MENU SECTION */
+
+#menu_section {
+    width: 100%;
+    border-bottom: 1px solid #E6E8EF;
+}
+
+#menu_section .row {
+    display: flex;
+    align-items: center;
+}
+
+#menu_section img {
+    display: inline-block;
+    padding-left: 50px;
+}
+
+#menu_section ul {
+    list-style-type: none;
+    vertical-align: middle;
+    margin-bottom: 0px;
+}
+
+#menu_section ul li {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 600;
+    
+}
+
+#menu_section ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+#menu_section ul li a:hover {
+    color: #5834B6
+}
+
+#signup_section {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#signup_section img {
+    padding: 10%;
+    width: 100%;
+}
+#signup_section .signup_fields {
+    margin: 5%;
+}
+#signup_section .signup_fields h3 {
+    font-size: 16px;
+}
+
+#signup_section .signup_fields p {
+    font-size: 14px;
+}
+
+#signup_section .signup_fields p:last-child  {
+    font-size: 12px;
+}
+
+#signup_section .signup_fields .input_group {
+    display: inline-block;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #E6E8EF;
+    margin-bottom: 10px;
+}
+
+#signup_section .signup_fields .input_group input {
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+#signup_section .signup_fields .input_group label {
+    display: block;
+    margin: 0;
+    color: gray;
+    font-size: 12px;
+}
+
+/* Checkbox Group */
+
+#signup_section .signup_fields form {
+    margin-bottom: 20px;
+}
+
+#signup_section .signup_fields .checkbox_group {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#signup_section .signup_fields .checkbox_group input[type="checkbox"] {
+    line-height: 15px;
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid rgb(192,192,192);
+    border-radius: 0.25em;
+    background: rgb(224,224,224);
+}
+
+#signup_section .signup_fields .checkbox_group label {
+    display: inline;
+    font-size: 12px;
+}
+
+/*Validation Section */
+
+#signup_section .signup_fields img.check {
+    padding: 0;
+    width: 20px;
+    float: right;
+    display: none;
+}
+#signup_section .signup_fields img.error {
+    padding: 0;
+    width: 20px;
+    float: right;
+    display: none;
+}
+
+
+#signup_section .signup_fields .validation_error {
+    border: 1px solid red;
+}
+
+#signup_section .signup_fields .validation_error label {
+    color: red;
+}
+
+@media only screen and (min-width:200px) and (max-width: 1000px)  {
+
+    #menu_section  {
+        text-align: center;
+    }
+
+    #menu_section ul li a {
+        font-size: 14px;
+    }
+
+    #menu_section  .row .col-md-1 {
+        display: none;
+    }
+
+    #menu_section  .row .col-sm-1 {
+        display: none;
+    }
+    
+    
+
+    #menu_section ul li input[type="submit"] {
+        padding: 5px 10px;
+    }
+}
+
